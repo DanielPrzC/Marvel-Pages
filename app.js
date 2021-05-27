@@ -1,6 +1,6 @@
-const APIPublicKey = config.APIPublicKey;
-const APIts = config.APIts;
-const APIHash = config.APIHash;
+const APIPublicKey = config.API_PUBLIC_KEY;
+const APIts = config.API_TS;
+const APIHash = config.API_HASH;
 let APIOffset = 0;
 let totalCount;
 let searchQuery;

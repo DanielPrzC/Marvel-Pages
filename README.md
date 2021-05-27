@@ -1,19 +1,13 @@
 <div align="center">
-  <img alt="Logo" src="" width="100" />
+  <img alt="Logo" src="https://raw.githubusercontent.com/DanielPrzC/Marvel-Pages/main/assets/logos/logo.png" width="100" />
 </div>
 <h1 align="center">
   Marvel Pages
 </h1>
 <p align="center">
-  First iteration of my personal website / portfolio. Built with <a href="https://reactjs.org/" target="_blank">React</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
-</p>
-<!-- <p align="center">
-  <a href="https://app.netlify.com/sites/danielperezcastejon/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/986a3e71-6a62-45be-82e4-96327274546d/deploy-status" alt="Netlify Status" />
-  </a>
-</p> -->
+  App created to search for information about Marvel comic characters using the <a href="https://developer.marvel.com">Marvel API</a>. Hosted with GitHub Pages.
 
-![demo](https://raw.githubusercontent.com/DanielPrzC/Personal-Website-V1/master/public/images/demo.png)
+![demo](https://raw.githubusercontent.com/DanielPrzC/Marvel-Pages/main/assets/images/demo.jpg)
 
 ## 🛠 Set Up
 
