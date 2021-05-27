@@ -15,7 +15,7 @@
 
 2. Inside the app.js file, replace this const:
 
-   ```render-babel
+   ```js
    const APIPublicKey = //Your Public Key here
    const APIts = //Your TS here
    const APIHash = //Your Hash here
