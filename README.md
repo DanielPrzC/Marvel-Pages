@@ -5,19 +5,18 @@
   Marvel Pages
 </h1>
 <p align="center">
-  App created to search for information about Marvel comic characters using the <a href="https://developer.marvel.com">Marvel API</a>. Hosted with GitHub Pages.
-
+  App created to search for information about Marvel comic characters using the <a href="https://developer.marvel.com">Marvel API</a>.
 ![demo](https://raw.githubusercontent.com/DanielPrzC/Marvel-Pages/main/assets/images/demo.jpg)
 
 ## 🛠 Set Up
 
-1. Register at the <a href="https://developer.marvel.com" target="_bkank">Marvel´s Developers Site</a> To get your API keys and follow their instructions on how to use them.
+1. Register at the <a href="https://developer.marvel.com" target="_blank">Marvel´s Developers Site</a> To get your API keys and follow their instructions on how to use them.
 
 2. On the index.js file, replace the const:
 
    ```render-babel
    const APIPublicKey = //Your Public Key
-   const APITs = //Your TS
+   const APIts = //Your TS
    const APIHash = //Your Hash
    ```
 following Marvel's instructions and you are good to test out this code.
@@ -31,5 +30,5 @@ following Marvel's instructions and you are good to test out this code.
 | Dark Red       | ![#831518](https://via.placeholder.com/10/831518?text=+) `#831518` |
 | Red            | ![#e62429](https://via.placeholder.com/10/e62429?text=+) `#e62429` |
 | Gray           | ![#999999](https://via.placeholder.com/10/999999?text=+) `#999999` |
-| Light Gra      | ![#eaeaea](https://via.placeholder.com/10/eaeaea?text=+) `#eaeaea` |
+| Light Gray     | ![#eaeaea](https://via.placeholder.com/10/eaeaea?text=+) `#eaeaea` |
 | White          | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) `#ffffff` |
