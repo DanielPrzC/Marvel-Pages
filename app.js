@@ -1,6 +1,11 @@
+//I used a separated script to save all the personal keys and avoid pushing them to the Git 
+//repository. Replace this const with your own keys so the app can work.
 const APIPublicKey = config.API_PUBLIC_KEY;
 const APIts = config.API_TS;
 const APIHash = config.API_HASH;
+//-----------------------------------------------------------------------------------------
+
+
 let APIOffset = 0;
 let totalCount;
 let searchQuery;

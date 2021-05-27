@@ -5,7 +5,7 @@
   Marvel Pages
 </h1>
 <p align="center">
-  App created to search for information about Marvel comic characters using the <a href="https://developer.marvel.com">Marvel API</a>.
+  App created to search for information about Marvel comic characters requesting data from the <a href="https://developer.marvel.com">Marvel API</a>.
 
 ![demo](https://raw.githubusercontent.com/DanielPrzC/Marvel-Pages/main/assets/images/demo.jpg)
 
@@ -13,14 +13,16 @@
 
 1. Register at the <a href="https://developer.marvel.com" target="_blank">Marvel´s Developers Site</a> To get your API keys and follow their instructions on how to use them.
 
-2. On the index.js file, replace the const:
+2. Inside the app.js file, replace this const:
 
    ```render-babel
-   const APIPublicKey = //Your Public Key
-   const APIts = //Your TS
-   const APIHash = //Your Hash
+   const APIPublicKey = //Your Public Key here
+   const APIts = //Your TS here
+   const APIHash = //Your Hash here
    ```
-following Marvel's instructions and you are good to test out this code.
+with your own keys, following Marvel's instructions and you are good to go.
+
+3. Execute the index.html file once you set your personal keys to visualize the app on your browser.
 
 ## 🎨 Color Reference
 
