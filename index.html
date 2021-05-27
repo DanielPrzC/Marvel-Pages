@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+
+    <link rel="Marvel Pages Icon" href="assets/logos/favicon/favicon.ico" />
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles Sheet -->
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Font Awesome -->
+
+    <script
+      src="https://kit.fontawesome.com/e502a69470.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Marvel Pages</title>
+  </head>
+  <body>
+    
+    <!-- NavBar -->
+    
+    <nav>
+      <div class="nav-container">
+        <a href="/"><img src="assets/logos/logo.png" alt="Nav Logo" /></a>
+      </div>
+    </nav>
+
+    <!-- Main -->
+
+    <main>
+
+    <!-- Hero Section -->
+
+      <section class="hero">
+        <div class="hero-container">
+          <div class="hero-content">
+            <h1>THE CITY IS UNDER ATTACK!</h1>
+            <p>
+              With the Marvel Pages, start
+              informing yourself about who shows up every time there
+              is a threat, wether it's a hero or a villain...
+            </p>
+            <a href="#list"><button>START SEARCHING</button></a>
+          </div>
+        </div>
+      </section>
+
+    <!-- List Section -->
+
+      <section id="list" class="list">
+        <h2 class="header">LIST OF CHARACTERS</h2>
+        <div class="search-form">
+          <i class="fas fa-search"></i>
+          <input
+            type="text"
+            id="input-search"
+            placeholder="SEARCH A CHARACTER"
+          />
+        </div>
+        <div class="list-wrapper">
+          <ul id="output-list" class="output-list"></ul>
+        </div>
+        <div class="tabs">
+          <button class="first" onclick="first()">
+            <i class="fas fa-angle-double-left"></i> FIRST
+          </button>
+          <button class="previous" onclick="previous()">
+            <i class="fas fa-angle-left"></i> PREV
+          </button>
+          <button class="next" onclick="next()">
+            NEXT <i class="fas fa-angle-right"></i>
+          </button>
+          <button class="last" onclick="last()">
+            LAST <i class="fas fa-angle-double-right"></i>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer>Daniel Pérez Castejón &copy. 2021</footer>
+
+    <!-- JS Scripts -->
+
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

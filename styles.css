@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eaeaea;
+  font-family: "Roboto", sans-serif;
+}
+
+/* NavBar------------------------------------------------------------------------------------- */
+
+nav {
+  background-color: #151515;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  max-width: 1080px;
+  min-width: 350px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  height: 48px;
+}
+
+nav img {
+  height: 100%;
+  margin-left: 1rem;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+/* Sections----------------------------------------------------------------------------------- */
+
+.hero {
+  background: linear-gradient(0deg, #000000 5%, transparent),
+              url(assets/images/city-bg.jpg) no-repeat center center / cover;
+  height: 100vh;
+  padding: 100px 0;
+}
+
+.hero-container {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.hero-content {
+  color: #ffffff;
+}
+
+.hero-content h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.hero-content p {
+  max-width: 420px;
+  font-size: 1.2rem;
+}
+
+.hero-content button {
+  background-color: #e62429;
+  color: #ffffff;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 1.5rem 2rem;
+  margin-top: 2rem;
+  clip-path: polygon(
+    8% 0%,
+    100% 0,
+    100% 0,
+    100% 70%,
+    92% 100%,
+    0 100%,
+    0 100%,
+    0% 30%
+  );
+}
+
+.hero-content button:hover {
+  background-color: #831518;
+  transition: all 0.2s ease-in-out;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 100px 0;
+  max-width: 920px;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------------------- */
+
+.header {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  margin: 0.625rem 0 2.5rem;
+  position: relative;
+  width: 100%;
+}
+
+.search-form {
+  display: flex;
+  border-bottom: 4px solid #e62429;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 80%;
+  height: 2rem;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.search-form input {
+  width: 100%;
+  background: none;
+  border: none;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding-left: 1rem;
+}
+
+.search-form input::placeholder {
+  opacity: 25%;
+}
+
+.output-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-self: center;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+/* Tabs--------------------------------------------------------------------------------------- */
+
+.tabs {
+  display: flex;
+  align-self: flex-end;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.tabs button {
+  cursor: pointer;
+  background-color: #151515;
+  color: #ffffff;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 300;
+  border: none;
+  padding: 0.125rem 0.25rem;
+}
+
+.tabs button:hover {
+  background-color: #e62429;
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+/* Card--------------------------------------------------------------------------------------- */
+
+.character-card {
+  margin: 0 0 2rem;
+}
+
+.character-card a {
+  text-decoration: none;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 350px;
+  background-color: #151515;
+  color: #ffffff;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 0,
+    100% 95%,
+    90% 100%,
+    0 100%,
+    0 100%,
+    0 0
+  );
+  position: relative;
+}
+
+.card-wrapper:hover .img-thumbnail {
+  transform: scale(1.2);
+  transition: all 0.35s ease-in-out;
+}
+
+.card-img {
+  width: 200px;
+  height: 200px;
+  background-color: #151515;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.back-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: 200px;
+  font-size: 0.8rem;
+  background-color: #e62429;
+  color: #ffffff;
+  position: absolute;
+  top: 4px;
+  z-index: 1;
+  padding: 1rem 0.5rem;
+}
+
+.back-img .cta {
+  margin: 1rem 0 0;
+  font-weight: 700;
+}
+
+.card-wrapper:hover .back-img {
+  top: 150px;
+  transition: all 0.35s ease-in-out;
+}
+
+.card-title {
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.card-title h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.not-found {
+  width: 150px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+/* Footer------------------------------------------------------------------------------------- */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  color: #999999;
+  background-color: #151515;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------------------- */
+
+@media (max-width: 480px) {
+  .list,
+  .hero-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .card-wrapper {
+    width: 120px;
+    height: 210px;
+  }
+  .card-img {
+    width: 120px;
+    height: 120px;
+  }
+  .back-img {
+    height: 120px;
+    font-size: 0.5rem;
+    top: 2px;
+  }
+  .back-img .cta {
+    margin: 8px 0;
+  }
+  .card-wrapper:hover .back-img {
+    top: 90px;
+  }
+  .header {
+    font-size: 1.9rem;
+  }
+  .card-title h3 {
+    font-size: 0.6rem;
+  }
+  .tabs {
+    width: 65%;
+  }
+  .search-form input {
+    font-size: 1.2rem;
+  }
+}
