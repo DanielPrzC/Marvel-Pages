@@ -1,11 +1,12 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/DanielPrzC/Marvel-Pages/main/assets/logos/logo.png" width="100" />
+  <img alt="Logo" src="https://raw.githubusercontent.com/DanielPrzC/Marvel-Pages/main/assets/logos/logo.png" width="250" />
 </div>
 <h1 align="center">
   Marvel Pages
 </h1>
 <p align="center">
   App created to search for information about Marvel comic characters using the <a href="https://developer.marvel.com">Marvel API</a>.
+
 ![demo](https://raw.githubusercontent.com/DanielPrzC/Marvel-Pages/main/assets/images/demo.jpg)
 
 ## 🛠 Set Up
